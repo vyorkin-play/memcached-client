@@ -1,0 +1,12 @@
+[package]
+name = "memcached-client"
+version = "0.1.0"
+authors = ["Vasiliy Yorkin <vasiliy.yorkin@gmail.com>"]
+
+[dependencies]
+bytes = "*"
+nom = "*"
+tokio-io = "*"
+
+[dev-dependencies]
+spectral = "*"
