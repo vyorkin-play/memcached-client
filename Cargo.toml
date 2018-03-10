@@ -6,7 +6,11 @@ authors = ["Vasiliy Yorkin <vasiliy.yorkin@gmail.com>"]
 [dependencies]
 bytes = "*"
 nom = "*"
+futures = "*"
+tokio-core = "*"
 tokio-io = "*"
+tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }
+tokio-service = "*"
 
 [dev-dependencies]
 spectral = "*"
